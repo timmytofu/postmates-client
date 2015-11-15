@@ -17,6 +17,7 @@ library
   exposed-modules:     Postmates.Client
   build-depends:       base                       >= 4.7        && < 4.8
                      , aeson                      >= 0.9        && < 1
+                     , base64-bytestring          == 1.*
                      , bytestring                 >  0.10       && < 1
                      , data-default-class         <  1
                      , either                     == 4.*
